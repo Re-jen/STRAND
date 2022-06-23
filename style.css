@@ -1,0 +1,131 @@
+body{
+  font: 100;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Global*/
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+ ul{
+  margin: 0;
+  padding: 0;
+ }
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*Header **/
+header{
+  background: #35424a;
+  color: aqua;
+  padding-top: 30px;
+  min-height: 70px; 
+   border-bottom: #e8491d solid;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+ header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+   color: orange;
+   font-weight: bold;
+}
+
+header a:hover{
+  color: gray; 
+  font-weight: bold;
+}
+
+/* Showcase */
+#Showcase{
+  min-height: 100px;
+  min-width: none;
+  background: url("./images/senior\ high.jpg");
+  text-align: center;
+  color: white;
+  border-bottom: #e8491d solid;
+}
+
+#Showcase h1{
+  margin-top: 75;
+  font-size: 55px;
+  margin-bottom: 65px;
+}
+#showcase{
+  font-size: 20px;
+
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 30px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+   width: 200px;
+   height: 200px;
+}
+
+/* sidebar */
+aside #sidebar{
+ float: right;
+ width: 30%;
+ margin-top: 10px;
+ text-align: center;
+}
+
+/* main */
+article#main{
+  float: left;
+  width: 60%;
+  background-color: white;
+}
+
+footer{
+  padding: 3px;
+  margin-top: 2px;
+  color: orange;
+  text-align: center;
+  background-color: #35424a;
+}
